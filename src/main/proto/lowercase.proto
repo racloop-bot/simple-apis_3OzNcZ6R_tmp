@@ -1,0 +1,12 @@
+syntax = "proto3";
+option java_package = "com.ril.fabric.demo";
+option java_outer_classname = "ApiMessage";
+option java_multiple_files = true;
+
+message PlainText {
+  string text = 1;
+}
+
+message LowerCaseText {
+  string text = 1;
+}

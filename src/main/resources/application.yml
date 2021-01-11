@@ -1,0 +1,11 @@
+spring:
+  kafka:
+    bootstrap-servers: ${KAFKA_HOST:localhost}:${KAFKA_PORT:9092}
+
+app:
+  fabric:
+    instance-id: ${INSTANCE_ID:28ebd9a}
+    input-types: ${INPUT_TYPES:PlainText}
+    output-types: ${OUTPUT_TYPES:LowerCaseText}
+server:
+  port: 9090
